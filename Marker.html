@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<script src="aframe/aframe.min.js"></script>
+<script src="AR.js-master/aframe/build/aframe-ar.min.js">
+</script>
+	<a-scene embedded arjs = 'trackingMethod: best;'>
+		<a-marker type='pattern' url='pattern-IMG_5684.patt'>
+			<video id="video" autoplay loop="true" src="video.mp4"></video>
+		</a-marker>
+		<a-entity camera></a-entity>
+	</a-scene>
+</html>
